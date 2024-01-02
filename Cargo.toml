@@ -20,7 +20,7 @@ base64 = "0.13.0"
 consulrs_derive = { version = "0.1.0", path = "consulrs_derive" }
 derive_builder = "0.10.2"
 http = "0.2.5"
-reqwest = { version = "0.11.4", default-features = false, features = ["rustls-tls"] }
+reqwest = { version = "0.11.23", default-features = false, features = ["__rustls", "rustls"] }
 rustify = "0.5.2"
 rustify_derive = "0.5.2"
 serde = "1.0.130"
